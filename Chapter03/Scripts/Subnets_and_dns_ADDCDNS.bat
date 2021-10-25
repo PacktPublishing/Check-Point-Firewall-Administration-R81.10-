@@ -1,1 +1,0 @@
-powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command (F:\Scripts\Subnets_and_dns_ADDCDNS.ps1)"
