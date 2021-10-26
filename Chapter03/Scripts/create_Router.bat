@@ -11,6 +11,3 @@ VBoxManage modifyvm "Router" --macaddress3 auto
 VBoxManage modifyvm "Router" --cableconnected3 on
 VBoxManage modifyvm "Router" --intnet3 Net_200.200.0.0
 VBoxManage modifyvm "Router" --graphicscontroller vmsvga
-
-
-
