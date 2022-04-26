@@ -4,6 +4,7 @@
 Get-ScheduledTask -TaskName ServerManager | Disable-ScheduledTask -Verbose
 Rename-Computer -NewName RightHost
 New-NetIPAddress -IPAddress 172.16.16.10 -DefaultGateway 172.16.16.1 -PrefixLength 24 -InterfaceIndex (Get-NetAdapter).InterfaceIndex
+Get-NetAdapter | Set-DnsClientServerAddress -ServerAddresses 9.9.9.9
 $WindowsUpdate = "Scheduled Start"
 Get-ScheduledTask -TaskName $WindowsUpdate | Disable-ScheduledTask  -Verbose
 Get-ScheduledTask -TaskName StartComponentCleanUp | Disable-ScheduledTask  -Verbose
