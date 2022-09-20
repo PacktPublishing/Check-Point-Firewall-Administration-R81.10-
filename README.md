@@ -4,20 +4,19 @@
 
 This is the code repository for [Check Point Firewall Administration R81.10+](https://www.packtpub.com/product/implementing-check-point-firewall-solutions/9781801072717), published by Packt.
 
-**A comprehensive guide to accelerating DevOps culture adoption with Terraform, Azure DevOps, Kubernetes, and Jenkins**
+**A practical guide to Check Point firewall deployment and administration**
 
 ## What is this book about?
 Check Point firewalls are the premiere firewalls, access control, and threat prevention appliances for physical and virtual infrastructures. With Check Point’s superior security, administrators can help maintain confidentiality, integrity, and the availability of their resources protected by firewalls and threat prevention devices. This hands-on guide covers everything you need to be fluent in using Check Point firewalls for your operations. 
 
 This book covers the following exciting features:
-* Understand the basics of infrastructure as code patterns and practices
-* Get an overview of Git command and Git flow
-* Install and write Packer, Terraform, and Ansible code for provisioning and configuring cloud infrastructure based on Azure examples
-* Use Vagrant to create a local development environment
-* Containerize applications with Docker and Kubernetes
-* Apply DevSecOps for testing compliance and securing DevOps infrastructure
-* Build DevOps CI/CD pipelines with Jenkins, Azure Pipelines, and GitLab CI
-* Explore blue-green deployment and DevOps practices for open sources projects
+* Understand various Check Point implementation scenarios in different infrastructure topologies
+* Perform initial installation and configuration tasks using Web UI and the CLI
+* Create objects of different categories and types
+* Configure different NAT options
+* Work with access control policies and rules
+* Use identity awareness to create highly granular rules
+* Operate high-availability clusters
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/180107271X) today!
 
