@@ -56,3 +56,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **Vladimir Yakovlev, CISSP**
 is an infrastructure and security solutions architect and CTO at Higher Intelligence LLC., with over 20 years of Check Point experience.
 He is recognized as a champion in the ISC2 and Check Point CheckMates communities and has been awarded Member of the Year and Contributor of the Year designations by peers, while also speaking at regional and international conferences. Vladimir has previously held the roles of Sr. V.P. of Technology and CISO, responsible for the design, implementation, and operation of multiple iterations of secure and resilient infrastructures in the financial industry. He enjoys helping others in the field of cybersecurity and can often be found in the CheckMates, LinkedIn, and ISC2 communities.
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801072717">https://packt.link/free-ebook/9781801072717 </a> </p>
