@@ -30,6 +30,7 @@ VBoxManage modifyvm "SmartConsole" --macaddress1 auto
 VBoxManage modifyvm "SmartConsole" --cableconnected1 on
 VBoxManage modifyvm "SmartConsole" --intnet1 Net_10.0.0.0
 VBoxManage clonevm CPBASE --snapshot "Snapshot 1" --options link --name CPSMS --register
+VBoxmanage modifyvm "CPSMS" --memory 6144
 VBoxManage modifyvm "CPSMS" --nic1 intnet
 VBoxManage modifyvm "CPSMS" --nictype1 82540EM
 VBoxManage modifyvm "CPSMS" --macaddress1 auto
