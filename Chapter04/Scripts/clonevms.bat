@@ -24,6 +24,7 @@ VBoxManage modifyvm "ADDCDNS" --macaddress1 auto
 VBoxManage modifyvm "ADDCDNS" --cableconnected1 on
 VBoxManage modifyvm "ADDCDNS" --intnet1 Net_10.20.20.0
 VBoxManage clonevm WINBASE --snapshot "Snapshot 1" --options link --name SmartConsole --register
+VBoxmanage modifyvm "SmartConsole" --memory 4096
 VBoxManage modifyvm "SmartConsole" --nic1 intnet
 VBoxManage modifyvm "SmartConsole" --nictype1 82540EM
 VBoxManage modifyvm "SmartConsole" --macaddress1 auto
