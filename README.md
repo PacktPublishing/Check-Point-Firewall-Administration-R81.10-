@@ -50,6 +50,9 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]( https://static.packt-cdn.com/downloads/9781801072717_ColorImages.pdf).
 
+##Errata
+* Page 77-88 (Under Installing Oracle VirtualBox): **Installing VirtualBox witt the default Python 2.x setting causes an error to be displayed.So, simply accept the error message and continue, ignoring the Python 2 dependencies. The alternative is to de-select the Python 2.x settings**
+
 ### Related products
 * OPNsense Beginner to Professionals [[Packt]](https://www.packtpub.com/product/opnsense-beginner-to-professional/9781801816878) [[Amazon]](https://www.amazon.com/dp/1801816875)
 
