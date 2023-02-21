@@ -1,0 +1,55 @@
+# After router VM is created using VIrtualBox UI
+# and install image process is completed
+# via VirtualBox console for this VM
+# type the following lines pressing Enter after each:
+
+set interfaces ethernet eth0 address dhcp
+set service ssh
+commit
+save
+exit
+
+# At $ prompt type:
+show interface ethernet eth0 brief
+# and note the IP address assigned to the eth0
+
+# Type:
+reboot
+# and press Enter
+# Type:
+y
+#and press Enter
+
+#From LabHost PC, using PuTTY, SSH into router VM using IP address noted earlier
+# At $ prompt, type:
+config
+# and press Enter
+
+#At vyos@router# prompt, copy and paste this codeblock:
+
+
+set interfaces ethernet eth0 description 'OUTSIDE'
+set interfaces ethernet eth1 address '200.100.0.254/24'
+set interfaces ethernet eth1 description 'Net_200.100.0.0'
+set interfaces ethernet eth2 address '200.200.0.254/24'
+set interfaces ethernet eth2 description 'Net_200.200.0.0'
+set nat source rule 100 outbound-interface 'eth0'
+set nat source rule 100 source address '200.100.0.0/24'
+set nat source rule 100 translation address 'masquerade'
+set nat source rule 200 outbound-interface 'eth0'
+set nat source rule 200 source address '200.200.0.0/24'
+set nat source rule 200 translation address 'masquerade'
+set system host-name 'router'
+set system name-server '9.9.9.9'
+set system time-zone US/Eastern
+
+#After execution, type the following lines pressing Enter after each:
+commit
+save
+exit
+
+#Test connectivity to the hosts on interent by:
+ping 9.9.9.9
+ping www.yahoo.com
+#Use Ctrl+C to abort.
+

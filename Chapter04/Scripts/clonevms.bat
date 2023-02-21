@@ -1,4 +1,7 @@
-SET PATH=%PATH%;C:\Program Files\Oracle\VirtualBox
+ECHO off
+REM "This script creating linked clones of CPBASE and WINBASE VMs on LabHost PC."
+ECHO Creating linked clones of CPBASE and WINBASE VMs on LabHost PC...
+PATH|find /i "Oracle\VirtualBox" >nul || set path=%PATH%;C:\Program Files\Oracle\VirtualBox
 VBoxManage clonevm WINBASE --snapshot "Snapshot 1" --options link --name LeftHost --register
 VBoxManage modifyvm "LeftHost" --nic1 intnet
 VBoxManage modifyvm "LeftHost" --nictype1 82540EM
@@ -24,14 +27,14 @@ VBoxManage modifyvm "ADDCDNS" --macaddress1 auto
 VBoxManage modifyvm "ADDCDNS" --cableconnected1 on
 VBoxManage modifyvm "ADDCDNS" --intnet1 Net_10.20.20.0
 VBoxManage clonevm WINBASE --snapshot "Snapshot 1" --options link --name SmartConsole --register
-VBoxmanage modifyvm "SmartConsole" --memory 4096
+VBoxManage modifyvm "SmartConsole" --memory 4096 --vram 128
 VBoxManage modifyvm "SmartConsole" --nic1 intnet
 VBoxManage modifyvm "SmartConsole" --nictype1 82540EM
 VBoxManage modifyvm "SmartConsole" --macaddress1 auto
 VBoxManage modifyvm "SmartConsole" --cableconnected1 on
 VBoxManage modifyvm "SmartConsole" --intnet1 Net_10.0.0.0
 VBoxManage clonevm CPBASE --snapshot "Snapshot 1" --options link --name CPSMS --register
-VBoxmanage modifyvm "CPSMS" --memory 6144
+VBoxManage modifyvm "CPSMS" --memory 6144 --vram 128
 VBoxManage modifyvm "CPSMS" --nic1 intnet
 VBoxManage modifyvm "CPSMS" --nictype1 82540EM
 VBoxManage modifyvm "CPSMS" --macaddress1 auto
@@ -104,12 +107,12 @@ VBoxManage modifyvm "CPGW" --nic1 intnet
 VBoxManage modifyvm "CPGW" --nictype1 82540EM
 VBoxManage modifyvm "CPGW" --macaddress1 auto
 VBoxManage modifyvm "CPGW" --cableconnected1 on
-VBoxManage modifyvm "CPGW" --intnet1 Net_172.16.16.0
+VBoxManage modifyvm "CPGW" --intnet1 Net_200.200.0.0
 VBoxManage modifyvm "CPGW" --nic2 intnet
 VBoxManage modifyvm "CPGW" --nictype2 82540EM
 VBoxManage modifyvm "CPGW" --macaddress2 auto
 VBoxManage modifyvm "CPGW" --cableconnected2 on
-VBoxManage modifyvm "CPGW" --intnet2 Net_200.200.0.0
+VBoxManage modifyvm "CPGW" --intnet2 Net_172.16.16.0
 VBoxManage list vms
 
 
