@@ -1,4 +1,5 @@
-Get-ScheduledTask -TaskName ServerManager | Disable-ScheduledTask -Verbose
+# If you do not need the Server Manager, uncomment the line below
+# Get-ScheduledTask -TaskName ServerManager | Disable-ScheduledTask -Verbose
 $WindowsUpdate = "Scheduled Start"
 Get-ScheduledTask -TaskName $WindowsUpdate | Disable-ScheduledTask  -Verbose
 Get-ScheduledTask -TaskName StartComponentCleanUp | Disable-ScheduledTask  -Verbose
