@@ -1,3 +1,4 @@
+@ECHO OFF
 REM Execute this script from elevated command prompt, i.e. CMD "Run as Administrator"
 REM "This script will replace the original unattended installation file with the version modified for evaluation ISO"
 ECHO "Replacing the original unattended installation file with the version modified for evaluation ISO..."
