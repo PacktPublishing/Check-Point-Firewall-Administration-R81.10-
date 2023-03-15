@@ -6,7 +6,7 @@ SET VMFILESPATH=%homedrive%%homepath%\VirtualBox VMs
 REN C:\CPBook\LabShare\ISOs_and_OVAs\Check_Point_R81.*.iso CPBASEEVAL.iso
 VBoxManage createvm --name %VM% --ostype RedHat_64 --register
 CD %VMFILESPATH%\%VM%\
-VBoxManage createhd --filename %VM%.vdi --size 61440
+VBoxManage createhd --filename %VM%.vdi --size 81920
 VBoxManage storagectl %VM% --name "IDE" --add IDE --controller PIIX4
 VBoxManage storageattach %VM% --storagectl "IDE" --port 0 --device 0 --type dvddrive --medium "C:\CPBook\LabShare\ISOs_and_OVAs\CPBASEEVAL.iso"
 VBoxManage storagectl %VM% --name "SATA" --add SAS --controller LsiLogicSas
