@@ -1,5 +1,5 @@
 # Errata and additional Notes 
-v. 1.01-031923
+v. 1.01-032623
 
 Thank you for purchasing the Check Point Firewall Administration R81.10+!
 Despite my best efforts, some errors are present in the book and are addressed here. In addition to this errata, a separate document, Check Point Lab Rapid Deployment Guide (replacing Chapters 3 and 4) is made available to you in the book’s GitHub repository. 
