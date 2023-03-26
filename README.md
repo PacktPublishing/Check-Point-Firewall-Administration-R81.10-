@@ -48,7 +48,7 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]( https://static.packt-cdn.com/downloads/9781801072717_ColorImages.pdf).
 
 ## Errata
-* Errata_and_Notes_v1.01-031923.pdf
+* Errata_and_Notes_v1.01-032623.md
 * Check Point Lab Rapid Deployment Guide.pdf (replacing Chapters 3 and 4)
 
 ### Related products
