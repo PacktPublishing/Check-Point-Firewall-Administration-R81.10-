@@ -4,7 +4,7 @@ v. 1.01-032623
 Thank you for purchasing the Check Point Firewall Administration R81.10+!
 Despite my best efforts, some errors are present in the book and are addressed here. In addition to this errata, a separate document, Check Point Lab Rapid Deployment Guide (replacing Chapters 3 and 4) is made available to you in the book’s GitHub repository. 
 The Rapid Deployment Guide is there to significantly speed-up the creation of the lab environment, taking into consideration updated version of VirtualBox. Scripts were updated as well to allow for new version of VirtualBox, R81.10 and R81.20 versions of Check Point, as well as choices of Intel or AMD CPUs in your LabHost PC.
-Tremendows thanks to Tim Hall, who has pointed out some of the pertinent additional information and few mistakes, and to Seth Holcomb, who has meticulously documented and shared with me his experience and encountered issues with the book and its labs.
+Tremendous thanks to Tim Hall, who has pointed out some of the pertinent additional information and few mistakes, and to Seth Holcomb, who has meticulously documented and shared with me his experience and encountered issues with the book and its labs.
 
 ## Chapter 1 - Introduction to Check Point Firewalls and Threat Prevention Products
  ### Page 13
