@@ -351,9 +351,11 @@ Configuring access control policy rules for remote access
 
 1.	Add **Net_192.168.254.0** to:
 
-   A. ***Rule 4 (DHCP relays and to clients Accept) Destination field.***
-   B.	***Rule 5 (DHCP replies to clients Accept) Destination field.***
-   C.	***Rule 9 (DNS Internal Accept) Source field.***
+ |_  A. ***Rule 4 (DHCP relays and to clients Accept) Destination field.***
+   
+ |_  B.	***Rule 5 (DHCP replies to clients Accept) Destination field.***
+   
+ |_  C.	***Rule 9 (DNS Internal Accept) Source field.***
 
 ### Page 499
 
