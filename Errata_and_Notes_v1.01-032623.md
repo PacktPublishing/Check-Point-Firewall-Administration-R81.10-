@@ -351,9 +351,9 @@ Configuring access control policy rules for remote access
 
 1.	Add **Net_192.168.254.0** to:
 
-   1. ***Rule 4 (DHCP relays and to clients Accept) Destination field.***
-   2.	***Rule 5 (DHCP replies to clients Accept) Destination field.***
-   3.	***Rule 9 (DNS Internal Accept) Source field.***
+   A. ***Rule 4 (DHCP relays and to clients Accept) Destination field.***
+   B.	***Rule 5 (DHCP replies to clients Accept) Destination field.***
+   C.	***Rule 9 (DNS Internal Accept) Source field.***
 
 ### Page 499
 
@@ -489,15 +489,16 @@ In Boot options selector , using arrow keys [5] select Start in 64bit online deb
 ***Figure EGWR4 — Choosing Check Point Start in 64bit online debug mode***
  
 …and if the cloned VM boots normally with verbose boot debug output, modify VM's configuration using these steps:
-  1.	Shut this VM down and, in Oracle VM VirtualBox Manager
-  2.	VM’s Settings, uncheck the “Enable Serial Port” checkbox and click OK.
-  3.	Boot VM normally ignoring these warnings:
+
+  A.	Shut this VM down and, in Oracle VM VirtualBox Manager
+  B.	VM’s Settings, uncheck the “Enable Serial Port” checkbox and click OK.
+  C.	Boot VM normally ignoring these warnings:
   
   ![](Errata_and_Notes_Figures/NandW/Figure_EGWR_5.png)
   
   ***Figure EGWR5 — Ignoring irrelevant Check Point boot posts***
   
-  4.	Repeat the same action for all your Check Point VMs.
+  D.	Repeat the same action for all your Check Point VMs.
 This was observed on AMD LabHost running VirtualBox 7 with CheckPoint R81.10 after completion of the First Time Configuration Wizard.
 
 
