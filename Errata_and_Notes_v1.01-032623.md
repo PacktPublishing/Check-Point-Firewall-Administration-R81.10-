@@ -142,7 +142,7 @@ After successful policy installation, In **GATEWAYS & SERVERS**, your cluster me
 
 Then, change the **Rule 19** by adding **SmartConsole_VM** to the **Source** field, deleting **ExternalZone** from **Destination** field and replacing it with **Check Point Services** updatable object to match what is depicted in ***Figure 11.10***:
 
-![Figure_E11_10c-CPSMS-and-SmartConsole-to-ExternalZone](Errata_and_Notes_Figures/Chapter_11/Errata_and_Notes_Figures/Chapter_11/Figure_E11_10c-CPSMS-to-ExternalZone.png)
+![Figure_E11_10c-CPSMS-and-SmartConsole-to-ExternalZone](Errata_and_Notes_Figures/Chapter_11/Figure_E11_10c-CPSMS-to-ExternalZone.png)
 
 ***Figure E11.10c — CPSMS and SmartConsole_VM to ExternalZone access rule***
 
