@@ -181,6 +181,7 @@ Similarly, for actions depicted in the paragraph above and in ***Figure 11.31 - 
 ### Page 454
 
 >**Note**
+>
 >Instead of typing the commands by hand, if you are using physical book, from **ADDCDNS** **CMD** prompt, execute `F:\Scripts\add-ad_users.bat script`. This will prompt you three times for each of three user’s passwords. Enter `CPL@b8110` to keep it consistent.
 
 ### Page 459
@@ -265,8 +266,8 @@ With **Gateway’s Name** [1] and **IPv4 Address** [2] defined and with **Secure
 
 ***Figure — 12.12 The modified rules for site-to-site VPN access from the remote side***
 
->**NOTE**
-
+>**Note**
+>
 >_You can further restrict rules applicable to VPN traffic by selecting specific VPN community in VPN column. Doing this will require creating additional rules for the sources and destinations that are on the other side of the VPN._
 
 In ***Step 3**
