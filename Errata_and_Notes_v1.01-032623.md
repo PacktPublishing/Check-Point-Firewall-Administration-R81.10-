@@ -10,7 +10,7 @@ Tremendous thanks to Tim Hall, who has pointed out some of the pertinent additio
  ### Page 13
 
   >**Note**
-
+  >
   >One effect of a SMS being down for a long time is that CRL retrieval can fail after the cache expires in a week, which will break certificate-based VPNs and various other certificate-based operations.
 
 ## Chapter 3 – Building a Check Point Lab Environment – Part 1
@@ -18,7 +18,7 @@ Tremendous thanks to Tim Hall, who has pointed out some of the pertinent additio
 ### Page 67 to Page 147
 
  >**Note**
-
+ >
  >_Chapters 3 and 4 are now replaced by the updated Check Point Lab Rapid Deployment Guide in this book’s GitHub repository. The guide referencing updated scripts in book’s GitHub repository and is available at:
  https://github.com/PacktPublishing/Check-Point-Firewall-Administration-R81.10-/blob/main/Check%20Point%20Lab%20Rapid%20Deployment%20Guide.pdf
  This is done to address inaccuracies in the way the scripts were depicted in the book, changes introduced in VirtualBox v. 7.0.X and to speed-up and simplify the lab deployment process._
@@ -98,13 +98,13 @@ Tremendous thanks to Tim Hall, who has pointed out some of the pertinent additio
  ### Page 382
 
  >**Note**
-
+ >
  >The **Protections** options configuration for hosts is now deprecated, but still available. Do not use these options. Instead, use **Protected Scope** option in **Threat Prevention Policy**. We do not use either options in the book. This is for information only.
 
 ### Page 398
 
  >**Note**
-
+ >
  >Two NAT rules can be matched for the same connection only if both are automatically-generated, whereas if a single manual NAT rule is matched no others can be.
 
 ## Chapter 11 — Building Your First Policy
@@ -280,16 +280,17 @@ Should be:
 On **RightHost**, change the DNS settings by replacing `9.9.9.9` with `10.20.20.10` (**ADDCDNS**) as your primary DNS server.
 
 >**Note**
-
+>
 >Windows using ONLY primary DNS server, so long as it is responding, even if it cannot resolve the host name.
 
 >**Note**
-
+>
 >It is also a good idea at this point to replace the **domain-udp** object <img src="https://github.com/PacktPublishing/Check-Point-Firewall-Administration-R81.10-/blob/9557a6799b1ceb078e24b5999d0bde65607d1c0a/Errata_and_Notes_Figures/Chapter_12/domain-UDP.png" width="10%"> in our **LeftSide_S2S** policy with dns **Service Group** object  <img src="https://github.com/PacktPublishing/Check-Point-Firewall-Administration-R81.10-/blob/9557a6799b1ceb078e24b5999d0bde65607d1c0a/Errata_and_Notes_Figures/Chapter_12/dns_service_group.png" width="5%">. This allows both, **UDP** and **TCP** for DNS to accommodate responses larger than 512 bytes.
 
 In ***Step 4***
 
 >**Note**
+>
 >You are instructed to initiate the RDP or HTTP traffic to any of the hosts on the Left Side (e.g., HTTP or RDP to DMZSRV.mycp.lab). While HTTP will succeed, RDP will fail, since we do not have RDP configured on DMZSRV yet. This is beside the point since all we are interested in, is generating traffic. Even unsuccessful RDP attempt will be logged as encrypted and decrypted:
  
 ![Figure_E12_Page_478_4](Errata_and_Notes_Figures/Chapter_12/Figure_E12_Page_478_4.png)
@@ -412,6 +413,7 @@ Should be:
 
 ### Page 526
 >**Note**
+>
 > In ***Step 4***, either wait for a few minutes before opening **New Tab** or close and re-open **SmartConsole** to see the **SmartEvent Settings & Policy** under **External Apps**.
 
 ### Page 530
