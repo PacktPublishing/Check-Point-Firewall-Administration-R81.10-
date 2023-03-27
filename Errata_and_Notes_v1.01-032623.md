@@ -164,7 +164,7 @@ Latest releases of web browsers updated the certificate handling interface. Now,
 
 ### Pages 451-452
 
-Similarly, for actions depicted in the paragraph above and in Figure 11.31 - Preparing the management server’s certificate for distribution, certificate interface is changed and now, in **Certificate Viewer** [1], Click on **Details** [2], In **Certificate Hierarchy** section, select top-most line [3] and click **Export** [4]:
+Similarly, for actions depicted in the paragraph above and in ***Figure 11.31 - Preparing the management server’s certificate for distribution***, certificate interface is changed and now, in **Certificate Viewer** [1], Click on **Details** [2], In **Certificate Hierarchy** section, select top-most line [3] and click **Export** [4]:
  
  ![Figure_E11_29_New_Cert_Interface_Action_2](Errata_and_Notes_Figures/Chapter_11/Figure_E11_31_New_Cert_Interface_Action_2.png)
  
