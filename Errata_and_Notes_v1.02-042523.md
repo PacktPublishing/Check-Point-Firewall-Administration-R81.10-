@@ -1,5 +1,5 @@
 # Errata and additional Notes 
-v. 1.01-032623
+v. 1.02-042523
 
 Thank you for purchasing the Check Point Firewall Administration R81.10+!
 Despite my best efforts, some errors are present in the book and are addressed here. In addition to this errata, a separate document, Check Point Lab Rapid Deployment Guide (replacing Chapters 3 and 4) is made available to you in the book’s GitHub repository. 
@@ -453,6 +453,9 @@ To get to that point:
 ### Page 574
 In **Table 15.2**
 **APC** should be **APCL** 
+
+### Page 589
+Last sentence contains references and the link to oneliner collection by Heiko Ankenbrand. That list is no longer maintained. Instead, use the updated one-liners list curated by Danny Jung, at https://community.checkpoint.com/t5/General-Topics/One-liner-collection-updated-for-R81-x/m-p/176286.
 
 ## General Weirdness and Recommendations
 1.	Microsoft is taking liberties with feature enablement without explicitly describing their consequences to the users.
