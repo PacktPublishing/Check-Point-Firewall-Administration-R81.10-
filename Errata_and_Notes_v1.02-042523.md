@@ -473,7 +473,8 @@ To ensure that your VirtualBox is an exclusive virtualization stack, verify that
 Shutdown your **LabHost** PC COMPLETELY (do not reset) and power it up again for these changes to take effect. On LabHost PC, use command:
 `shutdown /s /t 0`
 To ensure proper shutdown.
- 
+
+
 2.	If at any point during the lab build, your cloned Check Point VMs will get stuck on boot [1], with the progress bar [2] refusing to budge:
 
 ![Figure_EGWR_2](Errata_and_Notes_Figures/NandW/Figure_EGWR_2.png)
